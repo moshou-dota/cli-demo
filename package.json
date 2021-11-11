@@ -1,0 +1,23 @@
+{
+  "name": "cli-test-moshou-dota",
+  "version": "1.0.0",
+  "description": "cli test project",
+  "main": "server.js",
+  "bin": "./bin/server.js",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/server.js"
+  },
+  "author": "moshou_dota",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "execa": "^5.1.1",
+    "inquirer": "^8.2.0"
+  }
+}
