@@ -1,9 +1,11 @@
 {
-  "name": "cli-test-moshou-dota",
+  "name": "koa-cli",
   "version": "1.0.0",
   "description": "cli test project",
   "main": "server.js",
-  "bin": "./bin/server.js",
+  "bin": {
+    "koa-cli": "./bin/server.js"
+  },
   "files": [
     "bin",
     "package.json"
@@ -16,8 +18,10 @@
   "author": "moshou_dota",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^4.1.1",
     "ejs": "^3.1.6",
     "execa": "^5.1.1",
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
+    "prettier": "^2.5.1"
   }
 }
